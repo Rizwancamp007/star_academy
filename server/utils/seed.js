@@ -36,7 +36,7 @@ const seedData = async () => {
     const adminUser = await User.create({
       fullName: 'Rizwan Khan',
       email: 'khan@star.com',
-      password: 'Rkhan007',
+      password: 'StarDemo@1234',
       role: 'admin',
       isApproved: true,
       phone: '03000000000',
@@ -45,7 +45,7 @@ const seedData = async () => {
     console.log('👑 Admin account created successfully:')
     console.log(`   Name:     ${adminUser.fullName}`)
     console.log(`   Email:    ${adminUser.email}`)
-    console.log(`   Password: Rkhan007`)
+    console.log(`   Password: StarDemo@1234`)
     console.log(`   Role:     ${adminUser.role}`)
 
     console.log('🎉 Star Educational Academy database reset complete!')
