@@ -2,7 +2,7 @@
 
 A complete **MERN-stack learning management system** for a coaching academy — public
 website plus role-based dashboards for students, teachers, clerks, and admins.
-Built by [RK Builds](https://rizwankhan.vercel.app).
+Built by [Rizwan Khan](https://rizwankhan.tech).
 
 ## Tech stack
 
@@ -105,7 +105,3 @@ See `server/.env.example` for the full list:
 | `/faculty` · `/hero-slides` · `/success-stories` | public content |
 | `/settings` · `/messages` · `/milestones` | site content + inbox |
 
-## Commits
-
-This repo follows [Conventional Commits](https://www.conventionalcommits.org/)
-(`feat:`, `fix:`, `docs:`, `chore:`).
