@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Env files — never commit real credentials
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime / cache
+.pnp
+.pnp.*
+.vite/
+*.tsbuildinfo
+
+# Uploads (user content — keep out of the repo)
+uploads/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
